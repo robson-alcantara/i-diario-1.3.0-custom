@@ -1,0 +1,27 @@
+pt-BR:
+  activerecord:
+    models:
+      discipline_lesson_plan:
+        one: "Plano de aula por componente curricular"
+        other: "Planos de aula por componente curricular"
+
+    attributes:
+      discipline_lesson_plan:
+        lesson_plan: "Plano de aula"
+        lesson_plan_id: "Plano de aula"
+        discipline: "Componente curricular"
+        discipline_id: "Componente curricular"
+        author: "Autor"
+        objectives: "Objetivos"
+        contents: "Conteúdos"
+        thematic_unit: "Unidade temática"
+    errors:
+      models:
+        lesson_plan:
+          attributes:
+            base:
+              uniqueness_of_discipline_lesson_plan: "Já existe um plano de aula para o período informado"
+        discipline_lesson_plan:
+          attributes:
+            base:
+              uniqueness_of_discipline_lesson_plan: "Já existe um plano de aula para o período informado"
